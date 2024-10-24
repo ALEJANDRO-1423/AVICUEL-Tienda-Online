@@ -1,0 +1,21 @@
+/* src/components/ButtonWithLogo.css */
+.button-container {
+    position: relative; /* Permite que el logo se posicione sobre el botón */
+    display: inline-block; /* Para que cada botón se comporte como un bloque */
+    margin: 10px; /* Espacio entre los botones */
+}
+
+.logo {
+    position: absolute; /* Posiciona el logo de forma absoluta */
+    top: -20px; /* Ajusta para que el logo esté arriba del botón */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta para centrar el logo */
+    width: 40px; /* Tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+}
+
+.styled-button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}

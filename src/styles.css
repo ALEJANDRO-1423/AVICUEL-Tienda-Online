@@ -1,0 +1,63 @@
+/* src/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #d10404;
+  color: rgb(9, 7, 7);
+  padding: 1em;
+  text-align: center;
+}
+
+h2 {
+  color: #d4b9b9;
+}
+
+.App-logo {
+  height: 300px; /* Cambia el tamaño según lo necesites */
+  width: 300px; /* Cambia el tamaño según lo necesites */
+  display: block; /* Para que esté en su propia línea */
+  margin: 0 auto; /* Centra el logo horizontalmente */
+  border-radius: 50%; /* Hace el logo redondo */
+  transform: none; /* Asegúrate de que esta línea esté presente para que no haya rotación */
+  animation: none; /* Añade esta línea para evitar cualquier animación */
+}
+/* styles.css */
+.navbar {
+  background-color: #333; /* Fondo de la barra de navegación */
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-title {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.boton-navbar {
+  text-decoration: none;
+  color: white;
+  background-color: #FF6347; /* Color de fondo */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  transition: background-color 0.3s, transform 0.3s; /* Transición */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.boton-navbar:hover {
+  background-color: #0434e1; /* Color al pasar el ratón */
+  transform: scale(1.1); /* Agrandamiento al pasar el ratón */
+}

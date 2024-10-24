@@ -1,0 +1,37 @@
+/* src/components/NavBar.css */
+.navbar {
+    background-color: #ea1414; /* Fondo de la barra de navegación */
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .navbar-title {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .boton-navbar {
+    text-decoration: none;
+    color: rgb(87, 24, 24);
+    background-color: #f9f9f9; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transición */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  .boton-navbar:hover {
+    background-color: #e04e39; /* Color al pasar el ratón */
+    transform: scale(1.1); /* Agrandamiento al pasar el ratón */
+  }
+  
